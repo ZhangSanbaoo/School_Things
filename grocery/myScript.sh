@@ -1,26 +1,5 @@
 #!/bin/bash
-# for item in ./grocery/*.txt
-# do
-#         case "$item" in
-#             ananas*|apple*|bananas*|blueberry*|pear*|raspberry*)
-#             mv "$item" ./grocery/fruit
-#             echo 'twat'
-#             ;;
-#             cucumber*|eggplant*|salad*|tomato*|zucchini*)
-#             mv "$item" .grocery/vegetable
-#             ;;
-#             esac
-#     done
-    # case "$item" in
-    #     *"ananas"*|*"apple"*|*"bananas"*|*"blueberry"*|*"pear"*|*"raspberry"*)
-    #         mv -v "$item" ./fruit/
-    #         echo 'Fruit'
-    #         ;;
-    #     *"cucumber"*|*"eggplant"*|*"salad"*|*"tomato"*|*"zucchini"*)
-    #         mv "$item" ./vegetable/
-    #         echo -v 'Vegetable'
-    #         ;;
-    # esac
+
 for file in *.txt; do
     LIST+=("$file")
 done
@@ -33,3 +12,4 @@ for item in "${LIST[@]}"; do
     mv "$item" ./vegetable/
     fi
 done
+exit 0
