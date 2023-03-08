@@ -1,15 +1,16 @@
 import matplotlib
 # matplotlib.use('Qt5Agg')
+matplotlib.use('TkAgg')
 print(matplotlib.get_backend())
 
 import matplotlib.pyplot as plt
-# import tkinter
-# matplotlib.use('TkAgg')
-# import pandas as pd
-# import numpy as np
+# # import tkinter
 
-# from numpy import *
-# matplotlib.use('Qt5Agg')
+# # import pandas as pd
+# # import numpy as np
+
+# # from numpy import *
+# # matplotlib.use('Qt5Agg')
 
 def main():
     x = []
