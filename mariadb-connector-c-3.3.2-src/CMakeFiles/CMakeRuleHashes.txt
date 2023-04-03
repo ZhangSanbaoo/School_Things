@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+fb427bcae793365b4a93362f27fa3db1 libmariadb/CMakeFiles/SYM_libmariadb.a
+cf441b03542ac870084982edb2965c20 libmariadb/libmariadb.a

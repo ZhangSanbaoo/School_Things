@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangsanbao/Project/School_Things/mariadb-connector-c-3.3.2-src/mariadb_config/mariadb_config.c
+ma_config.h
+-
+getopt.h
+-
+stdio.h
+-
+stdlib.h
+-
+mariadb_version.h
+-
+alloca.h
+-
+sys/stat.h
+-
+sys/sysctl.h
+-
+sys/types.h
+-
+unistd.h
+-
+linux/limits.h
+-
+string.h
+-
+mach-o/dyld.h
+-
+
+include/ma_config.h
+
+include/mariadb_version.h
+custom_conf.h
+-
+
