@@ -12,3 +12,4 @@ def secondMin(l):
         elif smin < i:
             smin = i
     return smin
+secondMin(l)
