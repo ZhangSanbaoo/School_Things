@@ -1,3 +1,4 @@
 {
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cmake.sourceDirectory": "/home/zhangsanbao/Project/School_Things/mariadb-connector-c-3.3.2-src"
 }
